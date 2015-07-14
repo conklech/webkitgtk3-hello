@@ -1,0 +1,10 @@
+Basic demonstration of building a webkitgtk3 app using stack.
+
+Once you have the appropriate gtk3 and webkitgtk3 libraries installed (Windows
+instructions forthcoming!), just run `stack build`. Compiling the gtk3 library
+is unfortunately time-consuming. In the future, this will only have to be done
+once.
+
+As of 2015-07-15, stack.yaml specifies building against the Git version of gtk
+and pango. As soon as the mingw-patched version of gtk2hs gets into Stackage,
+these lines can be removed.
